@@ -7,7 +7,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@org.springframework.boot.webmvc.test.autoconfigure.WebMvcTest(CalculatorController.class)
+@org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest(CalculatorController.class)
 class CalculatorControllerTest {
 
     @Autowired
